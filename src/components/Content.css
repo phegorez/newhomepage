@@ -221,7 +221,7 @@
 @media screen and (min-width: 1439px) and (max-width: 1919px) {
 
     .content-3 p{
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .content-4 h1 {
@@ -253,20 +253,20 @@
     }
 
     .content-4 h3 {
-        font-size: 2vh;
+        font-size: 3vh;
     }
 
     .content-4 p {
-        font-size: 16.5px;
+        font-size: 22px;
     }
 
     .card img {
-        height: 130px;
+        height: 170px;
         width: 140px;
     }
 
     .card .card-details h1 {
-        font-size: 4vh;
+        font-size: 5vh;
         margin-bottom: 1vh;
         color: var(--dark-grayish-blue);
     }
@@ -278,7 +278,7 @@
     }
     
     .card .card-details p {
-        font-size: 15px;
+        font-size: 20px;
         color: var(--dark-grayish-blue);
     }
 }
