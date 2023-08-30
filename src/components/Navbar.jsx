@@ -25,7 +25,7 @@ const Navbar = ({isClick, setIsclick}) => {
                         <a href="">New</a>
                     </li>
                     <li>
-                        <a href="">Poular</a>
+                        <a href="">Popular</a>
                     </li>
                     <li>
                         <a href="">Trending</a>

@@ -171,7 +171,6 @@ a {
     
 }
 
-
 /* Macbook Pro 1440x900 */
 @media screen and (min-width: 1439px) and (max-width: 1919px) {
     .menu-list-active {
@@ -193,3 +192,10 @@ a {
         font-size: 1.5vh;
     }
 }
+
+@media screen and (min-width: 1920px) {
+    a {
+        font-size: 2vh;
+    }
+}
+
