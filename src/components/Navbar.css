@@ -1,0 +1,195 @@
+/* Navbar.css */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 80vh;
+}
+
+.menu {
+    width: 35%;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu-icon-open {
+    display: none;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+#menu-icon-close {
+    display: none;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+li {
+    list-style: none;
+}
+
+a:hover {
+    color: var(--soft-red);
+    transition: ease-in-out 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-grayish-blue);
+    font-weight: 500;
+    font-size: 2vh;
+}
+
+/* Mobile */
+@media screen and (min-width: 375px) and (max-width:767px) {
+    .menu-active {
+        background-color: white;
+    }
+
+    #menu-icon-open {
+        display: block;
+        position: relative;
+        transform: translate(615%, 50%);
+    }
+
+    #menu-icon-close {
+        display: block;
+        position: relative;
+        transform: translate(615%, 50%);
+    }
+
+    .menu,
+    .menu-active {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 70%;
+        position: absolute;
+        transform: translate(37%, 44.5%);
+        height: 100vh;
+        transition: ease-in-out 0.3s;
+    }
+
+    .menu {
+        transform: translate(42%, 44.5%);
+        width: 67.5%;
+    }
+
+    .menu-list {
+        display: none;
+    }
+
+    .menu-list-active {
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        transform: translate(-50%, 65%);
+        width: 57%;
+        padding-left: 15px;
+        height: 200px;
+    }
+
+    a {
+        color: var(--very-dark-blue);
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    li {
+        margin-bottom: 20px; 
+    }
+}
+
+/* Tablat */
+@media screen and (min-width: 767px) and (max-width: 1439px) {
+    .menu-active {
+        background-color: white;
+    }
+
+    #menu-icon-open {
+        display: block;
+        position: relative;
+        transform: translate(1370%, 70%);
+    }
+
+    #menu-icon-close {
+        display: block;
+        position: relative;
+        transform: translate(1370%, 70%);
+    }
+
+    .menu,
+    .menu-active {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 70%;
+        position: absolute;
+        transform: translate(40%, 44%);
+        height: 100vh;
+        transition: ease-in-out 0.3s;
+    }
+
+    .menu {
+        transform: translate(42%, 44%);
+        width: 67.5%;
+    }
+
+    .menu-list {
+        display: none;
+    }
+
+    .menu-list-active {
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        transform: translate(-50%, 65%);
+        width: 57%;
+        padding-left: 15px;
+        height: 200px;
+    }
+
+    a {
+        color: var(--very-dark-blue);
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    li {
+        margin-bottom: 20px; 
+    }
+    
+}
+
+
+/* Macbook Pro 1440x900 */
+@media screen and (min-width: 1439px) and (max-width: 1919px) {
+    .menu-list-active {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid red;
+    }
+
+    .menu {
+        transform: translate(0, 0);
+    }
+
+    .menu-active {
+        width: 35%;
+    }
+
+    a {
+        font-size: 1.5vh;
+    }
+}

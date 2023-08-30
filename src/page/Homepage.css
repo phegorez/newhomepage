@@ -1,0 +1,32 @@
+/* Homepage.css */
+
+.container {
+    padding: 10vh 15vh;
+    background-color: var(--off-white);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+@media screen and (max-width: 375px), (max-width: 809px) {
+    .container {
+        padding: 3vh 2vh;
+    }
+
+    .back-drop {
+        display: none;
+    }
+
+    .back-drop-active {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: var(--very-dark-blue);
+        opacity: 20%;
+        filter: blur(3px);
+        z-index: 0;
+    }
+}
