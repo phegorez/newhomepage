@@ -220,6 +220,18 @@
 
 @media screen and (min-width: 1439px) and (max-width: 1919px) {
 
+    .content-2 {
+        width: 80%;
+    }
+
+    .content-2 h1{
+        font-size: 8vh;
+    }
+
+    .content-3 {
+        width: 95%;
+    }
+
     .content-3 p{
         font-size: 22px;
     }
@@ -267,13 +279,13 @@
 
     .card .card-details h1 {
         font-size: 5vh;
-        margin-bottom: 1vh;
+        margin-bottom: 2vh;
         color: var(--dark-grayish-blue);
     }
     
     .card .card-details h2 {
         font-size: 2vh;
-        margin-bottom: 2vh;
+        margin-bottom: 3vh;
         font-weight: 800;
     }
     
